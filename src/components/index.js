@@ -1,0 +1,6 @@
+// export {default as contact}  from "./contact/Contact"
+// export {default as Introduction}  from "./Intro/Intro"
+// export {default as Portfolio}  from "./portfolio/Portfolio"
+// export {default as Testimonial}  from "./testimonials/Testimonials"
+// export {default as Navbar}  from "./navbar/Navbar"
+// export {default as Works}  from "./works/Works"
