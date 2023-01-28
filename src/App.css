@@ -5,9 +5,8 @@
     position: relative;
     top: 70px;
     scroll-snap-type: y mandatory;
-    /* webkitscrollbar{
-        display: none;
-    } */
+    scroll-behavior: smooth;
+   
     
 }
 .App{
