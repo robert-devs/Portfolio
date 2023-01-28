@@ -1,3 +1,5 @@
 .portfolio {
     background-color: aqua;
+     width: 100%;
+          height: calc(100vh - 70px);
 }
