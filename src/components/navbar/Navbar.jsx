@@ -1,27 +1,29 @@
 import React from 'react'
-import "./Navbar.css"
-import {Person,Mail} from '@material-ui/icons';
+import './Navbar.scss'
+import { Person, Mail } from '@material-ui/icons'
 
-export default function Navbar() {
+export default function Navbar({ menuOpen, setMenuOpen }) {
   return (
-    <div className='nav active' id='navbar'>
+    <div className={"nav " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
-          <a href="intro" className='logo'>Genius</a>
+          <a href="intro" className="logo">
+            Genius.
+          </a>
           <div className="itemContainer">
-            <Person className='icon' />
+            <Person className="icon" />
             <span>+254 8930</span>
           </div>
           <div className="itemContainer">
-            <Mail className='icon'/>
+            <Mail className="icon" />
             <span>sdk@gmail.com</span>
           </div>
         </div>
         <div className="right">
-          <div className="hamburger">
-            <span className='line 1'></span>
-            <span className='line 2'></span>
-            <span className='line 3'></span>
+          <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+            <span className="line1"></span>
+            <span className="line2"></span>
+            <span className="line3"></span>
           </div>
         </div>
       </div>
