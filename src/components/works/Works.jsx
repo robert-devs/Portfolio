@@ -1,6 +1,6 @@
 import React from 'react'
-import { ArrowLeft, ArrowRight } from '@material-ui/icons'
 import './works.scss'
+import { ArrowForwardIosTwoTone ,ArrowBackIosTwoTone} from '@material-ui/icons'
 import { useState } from 'react'
 
 export default function Works() {
@@ -59,12 +59,12 @@ export default function Works() {
           </div>
         ))}
       </div>
-      <ArrowLeft
+      <ArrowBackIosTwoTone
         style={{ color: 'cyan', alignItems: 'center' }}
         className="arrow left"
         onClick={() => handleClick('left')}
       />
-      <ArrowRight
+      <ArrowForwardIosTwoTone
         style={{ color: 'cyan', alignItems: 'center' }}
         onClick={() => handleClick('right')}
         className="arrow right"
