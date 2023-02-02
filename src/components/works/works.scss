@@ -1,5 +1,94 @@
-.works{
-    background-color:lightseagreen;
-     width: 100%;
-          height: calc(100vh - 70px);
+.works {
+  background-color: crimson;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  .arrow{
+    position: absolute;
+    &.left{
+        left: 100px ;
+        // width: 200px;
+        height: 20px;
+    }
+     &.right{
+        right: 100px ;
+        width: 30px;
+        height: 20px;
+    }
+  }
+  .slider {
+    height: 350px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: all 1s ease-in-out;
+    .container {
+      width: 100vw;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      .item {
+        width: 700px;
+        height: 100%;
+        border-radius: 20px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .left {
+          flex: 4;
+          height: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .leftContainer {
+            width: 90%;
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            .imgContainer {
+              justify-content: space-between;
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              background-color: rgb(243, 176, 152);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              img {
+                width: 25px;
+              }
+            }
+            h2 {
+              font-size: 20px;
+            }
+            p {
+              font-size: 13px;
+              margin-top: 15px;
+              margin-bottom: 15px;
+            }
+            span {
+              font-size: 12px;
+              font-weight: 600;
+              text-decoration: underline;
+              cursor: pointer;
+            }
+          }
+        }
+        .right {
+          flex: 8;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          img{
+            width: 500px;
+            // transform:rotate(-10deg ) ;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+  }
 }
