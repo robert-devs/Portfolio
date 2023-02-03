@@ -40,7 +40,7 @@ export default function Testimonials() {
         {data.map((d) => (
           <div className={d.featured ? 'card featured' : 'card'}>
             <div className="top" style={{cursor:"pointer"}}>
-              <ArrowForwardOutlined className="left"style={{cursor:"pointer"}} />
+              <ArrowForwardOutlined className="left"style={{cursor:"pointer"}}  />
               <img src={d.img} alt="" className="user" />
               <img src={d.icon} alt="" className="right  " />
             </div>
