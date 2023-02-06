@@ -11,21 +11,22 @@ export default function Works() {
       icon: 'assets/mobile.jpg',
       title: 'Web Design',
       desc:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis cumque totam soluta minima eius labore, similique voluptatibus assumenda error magni.',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis cumque '
+        
     },
     {
       id: '2',
       icon: 'assets/mobile.jpg',
       title: 'mobile App',
       desc:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis cumque totam soluta minima eius labore, similique voluptatibus assumenda error magni.',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis cumque ',
     },
     {
       id: '3',
       icon: 'assets/mobile.jpg',
       title: 'Branding',
       desc:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis cumque totam soluta minima eius labore, similique voluptatibus assumenda error magni.',
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis cumque ',
     }
   ]
   const handleClick = (way) => {

@@ -2,189 +2,159 @@ export const featuredPortfolio = [
   {
     id: 1,
     title: 'social media App',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+     img:'assets/content4.avif',
   },
   {
     id: 2,
     title: 'UI Design',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+     img:'assets/uidesign.jpg',
   },
   {
     id: 3,
     title: 'E-commerce  Web Design',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+     img:'assets/web4.avif',
   },
   {
     id: 4,
-    title: '  Web Exercise Design',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    title: '  Web  Design',
+      img:'assets/design2.avif',
   },
   {
     id: 5,
-    title: '  Web Design',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    title: ' Mobile app',
+    img:'assets/mobile 1.avif',
   },
   {
     id: 6,
     title: 'Banking App',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+     img:'assets/mobile 3.avif',
   },
 ]
 export const WebPortfolio = [
   {
     id: 1,
     title: 'social media App',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    img:'assets/web1.avif',
   },
   {
     id: 2,
-    title: 'UI Design',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    title: 'Music App',
+     img:'assets/web 2.avif',
   },
   {
     id: 3,
-    title: 'E-commerce  Web Design',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    title: 'Uber App',
+    img:'assets/web3.avif',
   },
   {
     id: 4,
-    title: '  Web Exercise Design',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    title: '  Web Exercise App',
+    img:'assets/web4.avif',
   },
   {
     id: 5,
-    title: '  Web Design',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    title: '  Shopping App',
+    img:'assets/mobile 3.avif',
   },
   {
     id: 6,
     title: 'Banking App',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    img:'assets/web 6.avif',
   },
 ]
 export const MobilePortfolio = [
   {
     id: 1,
     title: 'social media App',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    img:'assets/mobile 1.avif',
   },
   {
     id: 2,
     title: 'UI Design',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    img:'assets/mobile 2.avif',
   },
   {
     id: 3,
     title: 'E-commerce  Web Design',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    img:'assets/mobile 3.avif',
   },
   {
     id: 4,
     title: '  Web Exercise Design',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    img:'assets/mobile4.avif',
   },
   {
     id: 5,
     title: '  Web Design',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    img:'assets/mobile5.avif',
   },
   {
     id: 6,
     title: 'Banking App',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    img:'assets/web1.avif',
   },
 ]
 export const DesignPortfolio = [
   {
     id: 1,
     title: 'social media App',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    img:'assets/design1.avif',
   },
   {
     id: 2,
     title: 'UI Design',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    img:'assets/design2.avif',
   },
   {
     id: 3,
     title: 'E-commerce  Web Design',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    img:'assets/design 3.avif',
   },
   {
     id: 4,
     title: '  Web Exercise Design',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    img:'assets/design4.avif',
   },
   {
     id: 5,
     title: '  Web Design',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    img:'assets/design5.avif',
   },
   {
     id: 6,
     title: 'Banking App',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    img:'assets/design6.avif',
   },
 ]
 export const ContentPortfolio = [
   {
     id: 1,
     title: 'social media App',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    img:'assets/content1.avif',
   },
   {
     id: 2,
     title: 'UI Design',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    img:'assets/content2.avif',
   },
   {
     id: 3,
     title: 'E-commerce  Web Design',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    img:'assets/content3.avif',
   },
   {
     id: 4,
     title: '  Web Exercise Design',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+   img:'assets/content4.avif',
   },
   {
     id: 5,
     title: '  Web Design',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    img:'assets/content5.avif',
   },
   {
     id: 6,
     title: 'Banking App',
-    Image:
-      'https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFua2luZyUyMGFwcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60',
+    img:'assets/content 6.avif',
   },
 ]
