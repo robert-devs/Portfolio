@@ -10,14 +10,13 @@
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
     // scrollbar-width: none; // for fire fox
-    &::-webkit-scrollbar{
-        display: none;
+    &::-webkit-scrollbar {
+      display: none;
     }
-   
 
     > * {
       width: 100%;
-      height: calc(100vh - 70px);
+      height: calc(100vh - 80px);
     }
   }
 }

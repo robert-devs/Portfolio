@@ -3,13 +3,13 @@
   background-color: white;
   width: 100%;
   color: $main-color;
-  height: 70px;
+  height: 90px;
   position: fixed;
   z-index: 3;
   top: 0;
   transition: all 1s ease;
   .wrapper {
-    padding: 10px 30px;
+    padding: 5px 25px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,16 +19,21 @@
       align-items: center;
       margin-right: 50px;
       .logo {
-        font-size: 40x;
-        font-weight: 700;
-        text-decoration: none;
-        color: rgb(5, 250, 5);
+        background-color: #2dda4a;
+        width: 8%;
+        height: 10%;
+        border-radius: 50%;
+        display: flex;
+        justify-self: center;
+        // font-weight: 400;
+        // font-size: 40px;
+        align-items: center;
       }
       .itemContainer {
         display: flex;
         align-items: center;
         margin-left: 30px;
-         @include mobile{
+        @include mobile {
           display: none;
         }
         .icon {
@@ -63,7 +68,7 @@
   &.active {
     background-color: $main-color;
     color: white;
-    .hamburger { 
+    .hamburger {
       span {
         &:first-child {
           background-color: #fff;
