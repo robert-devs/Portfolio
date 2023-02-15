@@ -25,9 +25,11 @@
         border-radius: 50%;
         display: flex;
         justify-self: center;
-        // font-weight: 400;
-        // font-size: 40px;
         align-items: center;
+        @include mobile {
+          width: 20%;
+          height: 25%;
+        }
       }
       .itemContainer {
         display: flex;
