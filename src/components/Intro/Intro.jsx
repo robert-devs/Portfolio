@@ -7,13 +7,16 @@ import { useRef } from 'react'
 // import ArrowDownwardIcon from '@mui/icons-material/Ar';/
 
 export default function Intro() {
-  const textRef = useRef()
+  const textRef = useRef(null)
   useEffect(() => {
     init(textRef.current, {
       showCursor: true,
       backSpeed: 50,
+      loop: false,
+      disableBackTyping: false,
       backDelay: 1500,
       strings: ['Developer', 'Designer'],
+      onFinished: function () {},
     })
   }, [])
   return (

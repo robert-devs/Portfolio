@@ -1,4 +1,3 @@
-import { Spa } from '@material-ui/icons'
 import React from 'react'
 import { useState } from 'react'
 import './Contact.scss'
