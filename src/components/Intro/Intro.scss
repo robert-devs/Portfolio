@@ -13,17 +13,21 @@
     .imageContainer {
       width: 700px;
       height: 700px;
-      background-color: crimson;
-      border-radius: 50% / 50%;
       display: flex;
-      align-items: flex-end;
+      // background-color: coral;
+      align-items: center;
       justify-content: center;
       float: right;
       @include mobile {
         align-items: flex-start;
       }
-      .img {
-        height: 80%;
+      img {
+        max-width: 100%;
+        // border-radius: 25%;
+        height: 100%;
+        overflow: hidden;
+        object-fit: contain;
+        image-rendering: optimizeQuality;
         @include mobile {
           height: 50%;
         }

@@ -12,8 +12,8 @@ export default function Intro() {
     init(textRef.current, {
       showCursor: true,
       backSpeed: 50,
-      loop: false,
-      disableBackTyping: false,
+      loop: true,
+      // disableBackTyping: false,
       backDelay: 1500,
       strings: ['Developer', 'Designer'],
       onFinished: function () {},
@@ -23,7 +23,7 @@ export default function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imageContainer">
-          <img src="assets/profile.jpg" alt="pic" />
+          <img src="assets/img 1.jpg" alt="pic" />
         </div>
       </div>
       <div className="right">
