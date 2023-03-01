@@ -1,6 +1,6 @@
 import React from 'react'
 import './works.scss'
-import { ArrowForwardIosTwoTone ,ArrowBackIosTwoTone} from '@material-ui/icons'
+import { ArrowForwardIosTwoTone, ArrowBackIosTwoTone } from '@material-ui/icons'
 import { useState } from 'react'
 
 export default function Works() {
@@ -8,11 +8,10 @@ export default function Works() {
   const data = [
     {
       id: '1',
-      icon: 'assets/mobile.jpg',
+      icon: 'assets/prof 1.jpg',
       title: 'Web Design',
       desc:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis cumque '
-        
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis cumque ',
     },
     {
       id: '2',
@@ -23,11 +22,11 @@ export default function Works() {
     },
     {
       id: '3',
-      icon: 'assets/mobile.jpg',
+      icon: 'assets/branding.jpg',
       title: 'Branding',
       desc:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis cumque ',
-    }
+    },
   ]
   const handleClick = (way) => {
     way === 'left'

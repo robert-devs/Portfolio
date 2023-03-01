@@ -1,9 +1,9 @@
 import React from 'react'
 import './footer.css'
-import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { FaLinkedin, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
 
 const Footer = () => (
-  <div className="footer section__padding" id="footer">
+  <div className="footer section" id="footer">
     <div className="footer-heading">
       <h1 className="gradient__text">
         Do you want to step in to the future before others
@@ -11,14 +11,14 @@ const Footer = () => (
     </div>
 
     <div className="footer-btn">
-      <p>Request Early Access</p>
+      <p>Get in Torch</p>
     </div>
 
     <div className="footer-socials">
       <h5>
-        Facebook{' '}
+        LinkedIn{' '}
         <span>
-          <FaFacebook />
+          <FaLinkedin L />
         </span>
       </h5>
       <h5>
@@ -28,7 +28,7 @@ const Footer = () => (
         </span>
       </h5>
       <h5>
-        Instagram{' '}
+        Instagram{'   '}
         <span>
           <FaInstagram />
         </span>
@@ -42,7 +42,7 @@ const Footer = () => (
     </div>
 
     <div className="footer-copyright">
-      <p>@2023 GPT-3. All rights reserved.</p>
+      <p>@2023 My-Portfolio. All rights reserved.</p>
     </div>
   </div>
 )
